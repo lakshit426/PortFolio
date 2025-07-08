@@ -1,0 +1,21 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #0066ff, #00ccff);
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+}
